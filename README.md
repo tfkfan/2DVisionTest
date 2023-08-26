@@ -18,8 +18,8 @@ java -jar ./target/2d-vision-1.0-SNAPSHOT.jar
 
 ### Behaviour
 
-On this pics target point is hidden for observer:
+On these pics target point is hidden for observer:
 ![hidden.png](hidden.png)
 ![hidden2.png](hidden2.png)
-At last, now target point is visible: 
+At last, now target point is visible for observer: 
 ![visible.png](visible.png)
