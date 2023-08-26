@@ -1,6 +1,7 @@
 package com.tfkfan.gui;
 
-import static org.lwjgl.opengl.GL11.glClearColor;
+
+import org.lwjgl.opengl.GL11;
 
 public abstract class View {
     public void display(){
@@ -23,6 +24,6 @@ public abstract class View {
     }
 
     protected void clearColor(){
-        glClearColor(0.8f, 0.5f, 0.1f, 0.0f);
+        GL11.glClearColor(0.8f, 0.5f, 0.1f, 0.0f);
     }
 }
