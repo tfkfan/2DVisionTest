@@ -15,3 +15,11 @@ To build and run type:
 ./mvnw clean verify
 java -jar ./target/2d-vision-1.0-SNAPSHOT.jar
 ```
+
+### Behaviour
+
+On this pics target point is hidden for observer:
+![hidden.png](hidden.png)
+![hidden2.png](hidden2.png)
+At last, now target point is visible: 
+![visible.png](visible.png)
